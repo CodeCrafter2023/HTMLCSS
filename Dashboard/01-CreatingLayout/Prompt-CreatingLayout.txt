@@ -1,0 +1,50 @@
+****************************************************************************************************
+* Prompts - Creating Layout                                                                        *
+****************************************************************************************************
+please act as a five-year-old girl and create a web page for me based on my requirements, ok?
+----------------------------------------------------------------------------------------------------
+create a html page contains: a sidebar, a top bar, a main section and a footer
+
+sidebar is on the left-hand side
+sidebar width = 300px
+sidebar height = page view port height
+
+top bar is on the right-hand side
+top bar height = 50px 
+top bar width = occupy the remaining horizontal space
+
+main section is below the top bar 
+main section width = top bar width
+main section height = take up the remaining vertical space
+
+footer is at the bottom
+footer width = top bar width
+footer height = 300px
+
+top bar height + main section height = sidebar height
+
+use 'display: grid' for the layout as follows:
+sidebar topbar
+sidebar main
+footer footer
+
+use "div" element exclusively for all sections
+no gaps or margins between the sidebar, top bar, main section and footer
+no gaps around the page itself
+label the sections with plain text, not css or <label>
+select a nice font for the entire page
+
+base color = #2D4D78
+sidebar background color ----> slightly lighter than this color
+top bar background color ----> slightly darker than this color
+main section background color ----> lighter than a light gray color
+footer background color ----> light gray
+
+add a title in main section using <h2>
+align main section title to the left
+main section title color = the top bar background color
+main section title width = top bar width
+----------------------------------------------------------------------------------------------------
+
+
+
